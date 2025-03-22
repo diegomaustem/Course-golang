@@ -30,4 +30,13 @@ func main() {
 	for _, letter := range "Beet" {
 		fmt.Println(string(letter))
 	}
+
+	user := map[string]string{
+		"name": "Daniel",
+		"lastName": "Dantas",
+	}
+
+	for _, value := range user {
+		fmt.Println(value)
+	}
 }
